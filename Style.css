@@ -1,78 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
-/* General Styles */ /* General styles */
-body {
-  font-family: "DM Sans", sans-serif;
-  margin: 0;
+* {
   padding: 0;
-  background-color: #f7f7f7;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.content {
-  position: relative; /* Container for absolute-positioned items */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  height: auto; /* Adjust height as needed */
+img {
+  max-width: 100%;
+  display: block;
 }
 
-/* Styles for Each Content Item */
-.content-item {
-  position: absolute; /* Allows manual positioning */
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: right; /* Align text to the right */
+body {
+  background-color: hsl(254, 88%, 90%);
+  min-height: 100vh;
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
   font-weight: 500;
-  color: #333;
+  font-style: normal;
+  line-height: 1;
+  display: grid;
+  place-content: center;
 }
-
-/* Position Each Item */
-.item1 {
-  top: 20px;
-  left: 20px;
-  width: 200px;
+body .item2-text {
+  font-size: 4rem;
+  font-weight: 500;
 }
-
-.item2 {
-  top: 20px;
-  left: 240px;
-  width: 400px;
-  background-color: #a28bfd; /* Example: Purple */
-  color: white;
+body .item3-text {
+  font-size: 2.75rem;
+  font-weight: 500;
 }
-
-.item3 {
-  top: 150px;
-  left: 20px;
-  width: 200px;
-  background-color: #ffcd4c; /* Example: Yellow */
-}
-
-.item4 {
-  top: 150px;
-  left: 240px;
-  width: 200px;
-}
-
-.item5 {
-  top: 150px;
-  left: 460px;
-  width: 200px;
-  background-color: #ffcd4c; /* Example: Yellow */
-}
-
-.item6 {
-  top: 300px;
-  left: 20px;
-  width: 200px;
-  background-color: #d4c4fc; /* Example: Light Purple */
-}
-
-.item7 {
-  top: 300px;
-  left: 240px;
-  width: 400px;
-  background-color: #a28bfd; /* Example: Purple */
-  color: white;
+body .item1-text {
+  font-size: 2.75rem;
+  font-weight: 500;
 }/*# sourceMappingURL=Style.css.map */
